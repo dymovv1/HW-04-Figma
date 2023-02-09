@@ -320,6 +320,8 @@ hr {
 }
 
 .about_title {
+    display: flex;
+    justify-content: center;
     font-size: 34px;
     color: #070707;
     margin: 0%;
@@ -333,20 +335,58 @@ hr {
     font-size: 18px;
     color: #070707;
     max-height: 50px;
-}
-
-.about_text:first-child {
     max-width: 480px;
-}
-
-.about_text:nth-child(2) {
-    max-width: 406px;
-}
-
-.about_text:nth-child(3) {
-    max-width: 321px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24.51px;
 }
 
 .about_block_text {
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
 }
+
+.first_text {
+    margin: 50px 0px 30px 0px
+}
+
+.second_text {
+    margin: 0%;
+}
+
+.third_text {
+    max-width: 321px;
+    margin: 30px 0px 100px 0px
+
+}
+
+.skills_title {
+    margin: 100px 0px 0px 0px;
+}
+
+.skills_text {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+    font-size: 18px;
+    color: #070707;
+
+}
+
+.skills_discribe {
+    font-size: 14px;
+    font-weight: 700;
+    color: #828282;
+    margin: 32px 0px 60px 0px;
+    max-width: 90px;
+    text-align: center;
+
+}
+
+/* .skills_cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
